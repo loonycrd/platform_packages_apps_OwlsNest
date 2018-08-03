@@ -92,6 +92,23 @@
         <item>4</item>
     </string-array>
 
+    <!-- Lockscreen clock fonts -->
+    <string-array name="lock_clock_fonts_entries">
+    	<item>@string/lock_clock_font_normal</item>
+        <item>@string/lock_clock_font_medium</item>
+        <item>@string/lock_clock_font_bold</item>
+        <item>@string/lock_clock_font_condensed</item>
+        <item>@string/lock_clock_font_condensed_bold</item>
+    </string-array>
+
+    <string-array name="lock_clock_fonts_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
     <!-- Statusbar Clock options -->
     <string-array name="clock_style_entries" translatable="false">
         <item>@string/left_clock</item>

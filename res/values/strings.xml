@@ -471,6 +471,15 @@
     <string name="lockscreen_clock_selection_sammy_accent_alt_bold">Sammy with accent (alt-bold)</string>
     <string name="lockscreen_clock_selection_text">Text</string>
 
+    <!-- Lockscreen clock fonts -->
+    <string name="lock_clock_font_title">Clock fonts</string>
+    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_normal">Roboto</string>
+    <string name="lock_clock_font_medium">Roboto Medium</string>
+    <string name="lock_clock_font_bold">Roboto Bold</string>
+    <string name="lock_clock_font_condensed">Roboto Condensed</string>
+    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+
     <!-- Lockscreen cover art filter -->
     <string name="lockscreen_cover_filter_title">Lockscreen album art filter</string>
     <string name="lockscreen_cover_filter_none">None</string>
