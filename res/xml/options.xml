@@ -75,7 +75,7 @@
         android:summary="%s"
         android:entries="@array/weather_unit_entries"
         android:entryValues="@array/weather_unit_values"
-        android:defaultValue="0" />
+        android:defaultValue="@*android:integer/weather_lockscreen_default_unit" />
 
     <ListPreference
         android:key="lock_clock_fonts"
