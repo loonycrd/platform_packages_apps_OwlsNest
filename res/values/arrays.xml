@@ -94,11 +94,33 @@
 
     <!-- Lockscreen clock fonts -->
     <string-array name="lock_clock_fonts_entries">
-    	<item>@string/lock_clock_font_normal</item>
-        <item>@string/lock_clock_font_medium</item>
-        <item>@string/lock_clock_font_bold</item>
-        <item>@string/lock_clock_font_condensed</item>
-        <item>@string/lock_clock_font_condensed_bold</item>
+        <item>@string/lock_clock_font_roboto_r</item>
+        <item>@string/lock_clock_font_roboto_m</item>
+        <item>@string/lock_clock_font_roboto_b</item>
+        <item>@string/lock_clock_font_roboto_c</item>
+        <item>@string/lock_clock_font_roboto_cb</item>
+        <item>@string/lock_clock_font_gsans_r</item>
+        <item>@string/lock_clock_font_gsans_m</item>
+        <item>@string/lock_clock_font_gsans_b</item>
+        <item>@string/lock_clock_font_gsans_c</item>
+        <item>@string/lock_clock_font_gsans_cb</item>
+        <item>@string/lock_clock_font_fira_r</item>
+        <item>@string/lock_clock_font_fira_m</item>
+        <item>@string/lock_clock_font_fira_b</item>
+        <item>@string/lock_clock_font_fira_c</item>
+        <item>@string/lock_clock_font_fira_cm</item>
+        <item>@string/lock_clock_font_fira_cb</item>
+        <item>@string/lock_clock_font_sf_r</item>
+        <item>@string/lock_clock_font_sf_m</item>
+        <item>@string/lock_clock_font_sf_b</item>
+        <item>@string/lock_clock_font_sf_c</item>
+        <item>@string/lock_clock_font_sf_cm</item>
+        <item>@string/lock_clock_font_sf_cb</item>
+        <item>@string/lock_clock_font_slate_r</item>
+        <item>@string/lock_clock_font_slate_m</item>
+        <item>@string/lock_clock_font_slate_b</item>
+        <item>@string/lock_clock_font_slate_c</item>
+        <item>@string/lock_clock_font_slate_cb</item>
     </string-array>
 
     <string-array name="lock_clock_fonts_values" translatable="false">
@@ -107,6 +129,28 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
     </string-array>
 
     <!-- Statusbar Clock options -->
