@@ -482,4 +482,13 @@
     <string name="dialog_delete_title">Löschen</string>
     <string name="dialog_delete_message">Ausgewähltes Objekt entfernen?</string>
     <string name="app_ops_settings_summary">App-Berechtigungen verwalten</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Authentifizierung durch Fingerabdruck erzwingen</string>
+    <string name="fp_unlock_keystore_summary">Gerät nach Neustart oder Sperre mit Fingerabdruck entsperren</string>
+
+    <!-- Weather -->
+    <string name="weather_unit">Temperatureinheit</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 </resources>
