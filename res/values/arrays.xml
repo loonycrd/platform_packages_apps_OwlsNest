@@ -121,6 +121,13 @@
         <item>@string/lock_font_slate_b</item>
         <item>@string/lock_font_slate_c</item>
         <item>@string/lock_font_slate_cb</item>
+        <item>@string/lock_font_samsung_r</item>
+        <item>@string/lock_font_samsung_m</item>
+        <item>@string/lock_font_samsung_b</item>
+        <item>@string/lock_font_ubuntu_r</item>
+        <item>@string/lock_font_ubuntu_m</item>
+        <item>@string/lock_font_ubuntu_b</item>
+        <item>@string/lock_font_ubuntu_c</item>
     </string-array>
 
     <string-array name="lock_fonts_values" translatable="false">
@@ -151,6 +158,13 @@
         <item>24</item>
         <item>25</item>
         <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
     </string-array>
 
     <!-- Statusbar Clock options -->

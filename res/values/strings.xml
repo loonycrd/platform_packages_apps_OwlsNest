@@ -507,6 +507,13 @@
     <string name="lock_font_slate_b">Slate Bold</string>
     <string name="lock_font_slate_c">Slate Condensed</string>
     <string name="lock_font_slate_cb">Slate Condensed Bold</string>
+    <string name="lock_font_samsung_r">SamsungOne Regular</string>
+    <string name="lock_font_samsung_m">SamsungOne Medium</string>
+    <string name="lock_font_samsung_b">SamsungOne Bold</string>
+    <string name="lock_font_ubuntu_r">Ubuntu Regular</string>
+    <string name="lock_font_ubuntu_m">Ubuntu Medium</string>
+    <string name="lock_font_ubuntu_b">Ubuntu Bold</string>
+    <string name="lock_font_ubuntu_c">Ubuntu Condensed</string>
 
     <!-- Lockscreen cover art filter -->
     <string name="lockscreen_cover_filter_title">Lockscreen album art filter</string>
