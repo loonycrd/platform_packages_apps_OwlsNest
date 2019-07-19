@@ -510,6 +510,7 @@
     <string name="lock_font_samsung_r">SamsungOne Regular</string>
     <string name="lock_font_samsung_m">SamsungOne Medium</string>
     <string name="lock_font_samsung_b">SamsungOne Bold</string>
+    <string name="lock_font_samsung_c">SamsungOne Condensed</string>
     <string name="lock_font_ubuntu_r">Ubuntu Regular</string>
     <string name="lock_font_ubuntu_m">Ubuntu Medium</string>
     <string name="lock_font_ubuntu_b">Ubuntu Bold</string>

@@ -124,6 +124,7 @@
         <item>@string/lock_font_samsung_r</item>
         <item>@string/lock_font_samsung_m</item>
         <item>@string/lock_font_samsung_b</item>
+        <item>@string/lock_font_samsung_c</item>
         <item>@string/lock_font_ubuntu_r</item>
         <item>@string/lock_font_ubuntu_m</item>
         <item>@string/lock_font_ubuntu_b</item>
@@ -165,6 +166,7 @@
         <item>31</item>
         <item>32</item>
         <item>33</item>
+        <item>34</item>
     </string-array>
 
     <!-- Statusbar Clock options -->
