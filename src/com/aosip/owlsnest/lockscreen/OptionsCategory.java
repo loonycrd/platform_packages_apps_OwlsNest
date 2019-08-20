@@ -18,8 +18,6 @@ package com.aosip.owlsnest.lockscreen;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.res.Resources;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
@@ -57,8 +55,6 @@ public class OptionsCategory extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.options);
 
         ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
-        Resources resources = getResources();
 
         // Lockscren Clock Fonts
         mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
@@ -82,6 +78,7 @@ public class OptionsCategory extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+
         if (preference == mLockClockFonts) {
             Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONTS,
                     Integer.valueOf((String) newValue));
