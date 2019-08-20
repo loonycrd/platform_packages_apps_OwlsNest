@@ -62,18 +62,36 @@
         android:entryValues="@array/lockscreen_clock_selection_values"
         android:defaultValue="0" />
 
+    <ListPreference
+        android:key="lock_clock_fonts"
+        android:title="@string/lock_clock_font_title"
+        android:entries="@array/lock_fonts_entries"
+        android:entryValues="@array/lock_fonts_values"
+        android:summary="@string/lock_clock_font_summary"
+        android:dependency="lockscreen_clock"
+        android:persistent="false" />
+
     <com.aosip.support.preference.SystemSettingSwitchPreference
         android:key="lockscreen_info"
         android:title="@string/lockscreen_info_title"
         android:summary="@string/lockscreen_info_summary"
         android:defaultValue="true" />
 
+    <ListPreference
+        android:key="lock_date_fonts"
+        android:title="@string/lock_date_font_title"
+        android:entries="@array/lock_fonts_entries"
+        android:entryValues="@array/lock_fonts_values"
+        android:summary="@string/lock_date_font_summary"
+        android:dependency="lockscreen_info"
+        android:persistent="false" />
+
     <com.aosip.support.preference.SystemSettingSwitchPreference
         android:key="weather_lockscreen_enabled"
         android:title="@string/lock_screen_weather_title"
-        android:dependency="lockscreen_info"
         android:summary="@string/lock_screen_weather_summary"
-        android:defaultValue="true" />
+        android:dependency="lockscreen_info"
+        android:defaultValue="false" />
 
     <com.aosip.support.preference.SystemSettingListPreference
         android:key="weather_lockscreen_unit"
@@ -84,23 +102,6 @@
         android:entryValues="@array/weather_unit_values"
         android:dependency="weather_lockscreen_enabled"
         android:defaultValue="@*android:integer/weather_lockscreen_default_unit" />
-
-    <ListPreference
-        android:key="lock_clock_fonts"
-        android:title="@string/lock_clock_font_title"
-        android:entries="@array/lock_fonts_entries"
-        android:entryValues="@array/lock_fonts_values"
-        android:summary="@string/lock_clock_font_summary"
-        android:dependency="lockscreen_clock"
-        android:persistent="false" />
-
-    <ListPreference
-        android:key="lock_date_fonts"
-        android:title="@string/lock_date_font_title"
-        android:entries="@array/lock_fonts_entries"
-        android:entryValues="@array/lock_fonts_values"
-        android:summary="@string/lock_date_font_summary"
-        android:persistent="false" />
 
     <PreferenceCategory
         android:key="secure_lockscreen"
