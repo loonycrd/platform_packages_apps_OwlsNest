@@ -43,6 +43,9 @@
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">Значок VoLTE</string>
     <string name="volte_icon_summary">Показывать значок VoLTE</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крест над значком сети, когда передача данных отключена</string>
     <!-- Status bar clock options -->
     <string name="clock_category">Время</string>
     <string name="status_bar_clock">Время и дата</string>
@@ -52,6 +55,13 @@
     <string name="kronic_logo_title">Логотип Кроника</string>
     <string name="kronic_logo_summary">Покажите всем, что Вы используете AOSiP, когда они видят ваш экран</string>
     <string name="status_bar_logo_style_title">Пользовательский стиль логотипа</string>
+    <!-- Statusbar ticker -->
+    <string name="ticker_category">Бегущая строка</string>
+    <string name="ticker_summary">Предварительный просмотр уведомлений в строке состояния</string>
+    <string name="ticker_animation_mode_title">Анимация бегущей строки</string>
+    <string name="ticker_animation_mode_alpha_fade">Затухание</string>
+    <string name="ticker_animation_mode_scroll">Прокрутка</string>
+    <string name="ticker_tick_duration_title">Продолжительность бегущей строки</string>
     <!-- Status bar clock and date options -->
     <string name="clock_enabled">Включено</string>
     <string name="clock_disabled">Выключено</string>
@@ -191,6 +201,9 @@
     <string name="quicksettings_title">Быстрые настройки</string>
     <string name="quicksettings_summary">Управление быстрыми настройками и раскрытой строкой состояния</string>
     <string name="expanded_category">Расширенная</string>
+    <string name="brightness_slider_title">Слайдер яркости</string>
+    <string name="tiles_title">Плитки быстрых настроек</string>
+    <string name="qs_tile_footer">Чтобы изменить количество строк и столбцов QS и многое другое, используйте кнопку меню из трех точек под разделом редактирования QS в раскрывающемся списке QS.</string>
     <!-- Brigntess Slider -->
     <string name="tuner_show_auto_brightness">Кнопка адаптивной яркости</string>
     <string name="tuner_auto_brightness_right">Правое положение для кнопки адаптивной яркости</string>
@@ -399,11 +412,12 @@
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Информация о зарядке</string>
     <string name="lockscreen_charging_current_summary">Отображение тока зарядки и вольтажа на заблокированном экране</string>
-    <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Сейчас играет</string>
-    <string name="force_ambient_for_media_pref_summary">Информация о текущем треке в режиме Активного дисплея</string>
-    <string name="ambient_ticker_footer">Если опция включена, на Активном экране будет отображаться проигрываемый музыкальный трек.\n\nТакже срабатывает при выключенном Активном экране во время запуска нового трека, показывая пустой экран с информацией о треке в центре.\n\nВы также можете пропустить трек двойным нажатем по нему.\n\nЕсли у Вас есть Pixel и Вы включите функцию Сейчас играет и ее уведомления в системных настройках звука, тикер также будет работать с этой функцией.</string>
-    <string name="force_ambient_for_media_title">Включить</string>
+    <!-- Ambient Music Ticker -->
+    <string name="force_ambient_for_media_pref_title">Функция «Сейчас играет»</string>
+    <string name="force_ambient_for_media_pref_summary">Информация о текущем треке в режиме «Ambient Display»</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker отображает информацию о текущем треке используя «Ambient Display»\n\nСрабатывает также, если «Ambient Display» отключен при проигрывании нового трека, принудительно очищает экран и показывает информацию о треке в середине экрана.\n\nДля пропуска дважды коснитесь информации о треке.</string>
+    <string name="force_ambient_for_media_title">Показать music ticker на экране блокировки</string>
+    <string name="ambient_title">Сейчас играет</string>
     <!-- Media art -->
     <string name="media_art_title">Обложка альбома</string>
     <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
@@ -421,6 +435,14 @@
     <string name="advanced_title">Расширенные настройки</string>
     <string name="advanced_summary">Прочие и дополнительные настройки системы</string>
     <string name="system_category">Настройки системы</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Запускать приложение музыки</string>
+    <string name="headset_connect_player_disabled">Выключено</string>
+    <string name="headset_connect_player_wired">Когда проводные наушники подключены</string>
+    <string name="headset_connect_player_bt_no_carkit">Когда BT наушники (не автомобиль) подключены</string>
+    <string name="headset_connect_player_bt">Когда BT наушники подключены</string>
+    <string name="headset_connect_player_both_no_carkit">Когда проводные или BT наушники (не автомобиль) подключены</string>
+    <string name="headset_connect_player_both">Когда проводные или BT наушники подключены</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Показывать информацию о процессоре</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
@@ -444,6 +466,7 @@
     <string name="theme_accent_picker_default">По умолчанию</string>
     <string name="accent_picker_material_colors">Material-палитра</string>
     <string name="accent_picker_custom_colors">Пользовательская палитра</string>
+    <string name="qs_styles_dialog_title">Выберите стиль элементов быстрых настроек</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Параметры вибрации при вызове</string>
     <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
