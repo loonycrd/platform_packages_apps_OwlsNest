@@ -502,7 +502,6 @@
     <string name="lock_font_sf_m">SanFrancisco Medium</string>
     <string name="lock_font_sf_b">SanFrancisco Bold</string>
     <string name="lock_font_sf_c">SanFrancisco Condensed</string>
-    <string name="lock_font_sf_cm">SanFrancisco Condensed Medium</string>
     <string name="lock_font_sf_cb">SanFrancisco Condensed Bold</string>
     <string name="lock_font_slate_r">Slate Regular</string>
     <string name="lock_font_slate_m">Slate Medium</string>

@@ -114,7 +114,6 @@
         <item>@string/lock_font_sf_m</item>
         <item>@string/lock_font_sf_b</item>
         <item>@string/lock_font_sf_c</item>
-        <item>@string/lock_font_sf_cm</item>
         <item>@string/lock_font_sf_cb</item>
         <item>@string/lock_font_slate_r</item>
         <item>@string/lock_font_slate_m</item>
@@ -166,7 +165,6 @@
         <item>31</item>
         <item>32</item>
         <item>33</item>
-        <item>34</item>
     </string-array>
 
     <!-- Statusbar Clock options -->
