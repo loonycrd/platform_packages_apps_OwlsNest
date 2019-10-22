@@ -481,48 +481,20 @@
     <string name="lockscreen_clock_selection_text">Text</string>
 
     <!-- Lockscreen clock font style feature -->
-    <string name="lock_clock_font_title">Clock fonts</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_title">Clock font styles</string>
+    <string name="lock_clock_font_summary">Change the font style of the lockscreen clock widget</string>
 
     <!-- Lockscreen date font style feature -->
-    <string name="lock_date_font_title">Date fonts</string>
-    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
+    <string name="lock_date_font_title">Date font styles</string>
+    <string name="lock_date_font_summary">Change the font style of the lockscreen date widget</string>
 
     <!-- Common strings for lockscreen widget fonts -->
-    <string name="lock_font_roboto_r">Roboto Regular</string>
-    <string name="lock_font_roboto_m">Roboto Medium</string>
-    <string name="lock_font_roboto_b">Roboto Bold</string>
-    <string name="lock_font_roboto_c">Roboto Condensed</string>
-    <string name="lock_font_roboto_cb">Roboto Condensed Bold</string>
-    <string name="lock_font_gsans_r">Google Regular</string>
-    <string name="lock_font_gsans_m">Google Medium</string>
-    <string name="lock_font_gsans_b">Google Bold</string>
-    <string name="lock_font_gsans_c">Google Condensed</string>
-    <string name="lock_font_gsans_cb">Google Condensed Bold</string>
-    <string name="lock_font_fira_r">Fira Regular</string>
-    <string name="lock_font_fira_m">Fira Medium</string>
-    <string name="lock_font_fira_b">Fira Bold</string>
-    <string name="lock_font_fira_c">Fira Condensed</string>
-    <string name="lock_font_fira_cm">Fira Condensed Medium</string>
-    <string name="lock_font_fira_cb">Fira Condensed Bold</string>
-    <string name="lock_font_sf_r">SanFrancisco Regular</string>
-    <string name="lock_font_sf_m">SanFrancisco Medium</string>
-    <string name="lock_font_sf_b">SanFrancisco Bold</string>
-    <string name="lock_font_sf_c">SanFrancisco Condensed</string>
-    <string name="lock_font_sf_cb">SanFrancisco Condensed Bold</string>
-    <string name="lock_font_slate_r">Slate Regular</string>
-    <string name="lock_font_slate_m">Slate Medium</string>
-    <string name="lock_font_slate_b">Slate Bold</string>
-    <string name="lock_font_slate_c">Slate Condensed</string>
-    <string name="lock_font_slate_cb">Slate Condensed Bold</string>
-    <string name="lock_font_samsung_r">SamsungOne Regular</string>
-    <string name="lock_font_samsung_m">SamsungOne Medium</string>
-    <string name="lock_font_samsung_b">SamsungOne Bold</string>
-    <string name="lock_font_samsung_c">SamsungOne Condensed</string>
-    <string name="lock_font_ubuntu_r">Ubuntu Regular</string>
-    <string name="lock_font_ubuntu_m">Ubuntu Medium</string>
-    <string name="lock_font_ubuntu_b">Ubuntu Bold</string>
-    <string name="lock_font_ubuntu_c">Ubuntu Condensed</string>
+    <string name="lock_font_r">Regular</string>
+    <string name="lock_font_m">Medium</string>
+    <string name="lock_font_b">Bold</string>
+    <string name="lock_font_l">Light</string>
+    <string name="lock_font_i">Italic</string>
+    <string name="lock_font_c">Condensed</string>
 
     <!-- Lockscreen cover art filter -->
     <string name="lockscreen_cover_filter_title">Lockscreen album art filter</string>
