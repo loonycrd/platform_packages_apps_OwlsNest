@@ -26,7 +26,7 @@
     <string name="owlsnest_settings_title">Kategori</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Setel ulang</string>
     <string name="enabled">Enabled</string>
     <string name="add">Add</string>
     <string name="choose_app">Choose app</string>
@@ -66,7 +66,7 @@
     <!-- Status bar clock and date options -->
     <string name="clock_enabled">Enabled</string>
     <string name="clock_disabled">Disabled</string>
-    <string name="status_bar_clock_style_reset">Reset color</string>
+    <string name="status_bar_clock_style_reset">Setel ulang warna</string>
     <string name="status_bar_show_clock_title">Show clock and date</string>
     <string name="status_bar_clock_seconds_title">Show seconds</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
@@ -102,6 +102,12 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <!-- Battery Estimate -->
+    <string name="show_battery_estimate_title">Battery Estimates</string>
+    <string name="show_battery_estimate_summary">Show Battery Estimates in QS Panel</string>
+    <string name="battery_estimate_position_title">Battery Icon &amp; Estimates Position</string>
+    <string name="battery_estimate_position_qsheader">QS Header</string>
+    <string name="battery_estimate_position_qspanel">QS Panel</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_port">Tegak</string>
